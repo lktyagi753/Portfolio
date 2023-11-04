@@ -333,8 +333,9 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  border-radius: 100px;
 }
+
 
 .info-content .name {
   color: var(--white-2);
@@ -1337,9 +1338,14 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { gap: 25px; }
 
-  .avatar-box { border-radius: 30px; }
+  .avatar-box { border-radius: 100px; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img {
+
+    width: 190px;
+    height: 187px;
+    border-radius: 100%;
+  }
 
   .info-content .name { margin-bottom: 15px; }
 
@@ -1835,7 +1841,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { flex-direction: column; }
 
-  .avatar-box img { width: 150px; }
+  .avatar-box img { width: 190px;
+    height: 187px;
+    border-radius: 100%; }
 
   .info-content .name {
     white-space: nowrap;
